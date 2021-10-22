@@ -1,0 +1,14 @@
+.unit-card-wrapper {
+  padding: 25px;
+  border: 1px solid gray;
+  border-radius: 25px;
+}
+
+.unit-card-wrapper:not(:last-child) {
+  margin-right: 15px;
+}
+
+.unit-card-wrapper:hover {
+  background-color: #c8c8c8;
+  cursor: pointer;
+}

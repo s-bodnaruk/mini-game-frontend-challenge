@@ -1,0 +1,24 @@
+.result-area {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.result-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 160px;
+  border: 1px solid #747474;
+  border-radius: 13px;
+  cursor: default;
+}
+
+.round-winner {
+  background: #86ff4e;
+}
+
+.round-loser {
+  background: #f74242;
+}
